@@ -1,0 +1,83 @@
+package org.gettingAllAuctionInformation.domain;
+
+import lombok.Data;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Data
+@Document(collection = "Auctions")
+public class Auction {
+
+    private String country;
+    private String countyName;
+    private String countyURL;
+    private String auctionStatus;
+    private String auctionDate;
+    private String finalAmount;
+    private String soldTo;
+    private String auctionType;
+    private String caseNumber;
+    private String finalJudgmentAmount;
+    private String parcelID;
+    private String propertyAddress;
+    private String addressOne;
+    private String addressTwo;
+    private String assessedValue;
+    private String plaintiffMaxBid;
+    private String zillowSaleEstimation;
+    private String zillowRentEstimation;
+    private String zillowFullURL;
+    private int attomID;
+    private double attomLotSizeSqft;
+    private int attomLotNumber;
+    private String attomLotType;
+    private int attomTaxCodeArea;
+    private String attomPropLandUse;
+    private String attomPropType;
+    private int attomYearBuilt;
+    private String attomPropClass;
+    private int attomMarketLandValue;
+    private int attomImprValue;
+    private int attomTotalValue;
+    private int attomTaxYear;
+    private double attomTaxAmount;
+    private double attomLatitude;
+    private double attomLongitude;
+    private double attomBeds;
+    private double attomBathsPartial;
+    private double attomBathsFull;
+    private double attomBathTotal;
+    private double attomLivingSize;
+    private double attomBuildingSize;
+    private double attomGrossSize;
+    private double attomUniversalSize;
+    private String attomFrameType;
+    private String attomWallType;
+    private String attomFloorsType;
+    private String attomConstructionType;
+    private String attomEventEstimationDate;
+    private int attomEstimateScore;
+    private int attomEstimateValue;
+    private int attomEstimateLowValue;
+    private int attomEstimateHighValue;
+    private int attomEstimateFDS;
+    private int attomAssessedTotalValue;
+    private double attomBasmentSize;
+    private int attomBasmentPrecentageFinished;
+    private String attomConstructionCondition;
+    private int attomPropertyStructureMajorImprovementsYear;
+    private double attomParkingSize;
+    private double attomParkingSpaces;
+    private double attomEstimatedRentalValue;
+    private double getAttomEstimatedMinRentalValue;
+    private double getAttomEstimatedMaxRentalValue;
+    private String zillowZpidNumber;
+    private int zillowBeds;
+    private int zillowBaths;
+    private int zillowLowPercent;
+    private int zillowHighPercent;
+    private int zillowZestimate;
+    private int zillowMinus30;
+    private int zillowRentalLowPercent;
+    private int zillowRentalHighPercent;
+    private int zillowRentalZestimate;
+}
